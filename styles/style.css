@@ -11,7 +11,13 @@ body{
     padding-bottom:  3.5%;
 }
 .search-form{
-    padding-top:;
+    position: fixed;
+    top: 50%;
+    left:50%;
+    width: 61%;
+    max-width: 584px;
+    height: 100%;
+    transform: translate(-50%,-50%);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -22,6 +28,11 @@ body{
 
 
 }
+.text-box{
+    border-style: solid;
+    padding: 5px 8px 0 16px;
+    align-self:stretch ;
+}
 footer{
     position: fixed;
     left: 0;
@@ -29,6 +40,7 @@ footer{
     width: 100%;
    
 }
+
 .nav-footer{
     background-color: #f2f2f2;
     display: flex;
@@ -37,6 +49,7 @@ footer{
     font-size: 14px;
     font-family: arial,sans-serif;
 }
+
 ul{
     list-style: none;
     margin: 0;
@@ -52,6 +65,10 @@ li a{
     padding:    15px;
     text-align: center;
     text-decoration:    none ;
+}
+
+a.nav-link:hover{
+    text-decoration: underline;
 }
 .country-footer{
     padding: 15px 30px;
