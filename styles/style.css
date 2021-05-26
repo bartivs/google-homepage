@@ -146,7 +146,7 @@ li{
 li a{
     display: block;
     color: #70757a;
-    padding:    15px,0;
+   padding: 15px;
     text-align: center;
     text-decoration:    none ;
 }
